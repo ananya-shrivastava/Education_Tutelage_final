@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/lg"
+     android:padding="20dp"
+     >
+     <ScrollView android:layout_weight="30" 
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+         <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:columnCount="1"
+        android:horizontalSpacing="60dp"
+        android:paddingTop="80dp"
+        android:rowCount="5"
+        
+        android:verticalSpacing="30dp" >
+     <Button android:id="@+id/B1"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Commerce"
+        android:layout_marginBottom="20sp"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+     <Button android:id="@+id/B2"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Arts"
+        android:layout_marginBottom="20sp"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	
+	<Button
+        android:id="@+id/B3"
+        android:layout_marginBottom="20sp"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Engineering"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	<Button
+        android:id="@+id/B4"
+      	 android:layout_width="fill_parent"
+      	 android:layout_marginBottom="20sp"
+        android:layout_height="60dp"
+        android:text="Bsc"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	<Button
+        android:id="@+id/B5"
+      	 android:layout_width="fill_parent"
+      	 android:layout_marginBottom="20sp"
+        android:layout_height="60dp"
+        android:text="Law"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+   </GridLayout>
+   </ScrollView>
+   
+   </LinearLayout>
+   

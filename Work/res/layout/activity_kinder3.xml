@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgk1"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:columnCount="2"
+        android:horizontalSpacing="60dp"
+        android:paddingTop="40dp"
+        android:rowCount="2"
+        android:verticalSpacing="30dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:background="@drawable/vid1"
+            android:autoLink="web" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:background="@drawable/vid2"
+             android:autoLink="web" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:background="@drawable/vid3"
+             android:autoLink="web" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:background="@drawable/vid4"
+             android:autoLink="web" />
+    </GridLayout>
+
+</LinearLayout>

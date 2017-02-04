@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/fe3"
+     android:padding="20dp"
+     >
+
+    <TextView
+        android:id="@+id/proff"
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Proffession ?" 
+        android:textColor="#FF0000"
+        android:paddingBottom="100dp"
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    > 
+    
+   
+	<Button android:id="@+id/B4"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Primary"
+        android:layout_marginBottom="20sp"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	
+	<Button
+        android:id="@+id/B6"
+        android:layout_marginBottom="20sp"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Higher Secondary"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	<Button
+        android:id="@+id/B7"
+      	 android:layout_width="fill_parent"
+      	 android:layout_marginBottom="20sp"
+        android:layout_height="60dp"
+        android:text="College"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+</LinearLayout>	
+</LinearLayout>

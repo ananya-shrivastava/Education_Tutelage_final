@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.work"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eduicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SignUPActivity"
+             >
+        </activity>
+        
+        <activity
+            android:name=".Second1"
+            android:label="@string/title_activity_second1" >
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name=".Fourth"
+            android:label="@string/title_activity_fourth" >
+        </activity>
+        <activity
+            android:name=".Fifth"
+            android:label="@string/title_activity_fifth" >
+        </activity>
+        <activity
+            android:name=".Sixth"
+            android:label="@string/title_activity_sixth" >
+        </activity>
+        <activity
+            android:name=".Seventh"
+            android:label="@string/title_activity_seventh" >
+        </activity>
+        <activity
+            android:name=".Eight"
+            android:label="@string/title_activity_eight" >
+        </activity>
+        <activity
+            android:name=".Ninth"
+            android:label="@string/title_activity_ninth" >
+        </activity>
+        <activity
+            android:name=".Kinder"
+            android:label="@string/title_activity_kinder" >
+        </activity>
+        <activity
+            android:name=".Kinder1"
+            android:label="@string/title_activity_kinder1" >
+        </activity>
+        <activity
+            android:name=".Kinder2"
+            android:label="@string/title_activity_kinder2" >
+        </activity>
+        <activity
+            android:name=".Kinder3"
+            android:label="@string/title_activity_kinder3" >
+        </activity>
+        <activity
+            android:name=".Secondary"
+            android:label="@string/title_activity_secondary" >
+        </activity>
+        <activity
+            android:name=".Datab"
+            android:label="@string/title_activity_datab" >
+        </activity>
+    </application>
+
+</manifest>

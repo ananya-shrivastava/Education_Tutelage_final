@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu1"
+           android:title="About us" 
+           android:numericShortcut="2"
+    		android:alphabeticShortcut="b"/>
+ 
+    <item android:id="@+id/menu2"      
+          android:title="Help" 
+    		android:numericShortcut="1"
+    		android:alphabeticShortcut="a"
+    		
+/>
+    
+    <item android:id="@+id/menu3"      
+          android:title="Rating" 
+    		android:numericShortcut="1"
+    		android:alphabeticShortcut="a"
+    		
+/>
+     <item android:id="@+id/menu4"      
+          android:title="Settings" 
+    		android:numericShortcut="1"
+    		android:alphabeticShortcut="a">
+    <menu> 
+    		 
+    		 <item android:id="@+id/menu5"      
+          android:title="Edit Profile" 
+    		android:numericShortcut="1"
+    		android:alphabeticShortcut="a"
+    		/>
+    		 </menu>
+    		
+</item>
+</menu>

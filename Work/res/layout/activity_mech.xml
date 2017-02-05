@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/fe3"
+     android:padding="20dp"
+     >
+      <TextView
+        android:id="@+id/proff"
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Subject ?" 
+        android:textColor="#FF0000"
+        android:paddingBottom="4dp"
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+     <ScrollView android:layout_weight="30" 
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+         <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:columnCount="1"
+        android:horizontalSpacing="60dp"
+        android:paddingTop="80dp"
+        android:rowCount="6"
+        
+        android:verticalSpacing="30dp" >
+     <Button android:id="@+id/B1"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Lecture Videos"
+        android:layout_marginBottom="20sp"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+     <Button android:id="@+id/B2"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Notes"
+        android:layout_marginBottom="20sp"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	
+	<Button
+        android:id="@+id/B3"
+        android:layout_marginBottom="20sp"
+      	 android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Gate Preparation"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	<Button
+        android:id="@+id/B4"
+      	 android:layout_width="fill_parent"
+      	 android:layout_marginBottom="20sp"
+        android:layout_height="60dp"
+        android:text="Popular Books"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
+	</GridLayout>
+	</ScrollView>
+	</LinearLayout>

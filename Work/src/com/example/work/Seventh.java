@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Seventh extends Activity implements View.OnClickListener{
-	Button w1,w2,w3,w4,w5,w6;
+	Button w1,w2,w3,w4,w5,w6,w7;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -21,12 +21,14 @@ public class Seventh extends Activity implements View.OnClickListener{
 		w4= (Button) findViewById(R.id.B4);
 		w5= (Button) findViewById(R.id.B5);
 		w6= (Button) findViewById(R.id.B6);
+		w7= (Button) findViewById(R.id.B7);
 		w1.setOnClickListener(this);
 		w2.setOnClickListener(this);
 		w3.setOnClickListener(this);
 		w4.setOnClickListener(this);
 		w5.setOnClickListener(this);
 		w6.setOnClickListener(this);
+		w7.setOnClickListener(this);
 	}
 
 	@Override
@@ -54,31 +56,20 @@ public class Seventh extends Activity implements View.OnClickListener{
 		switch(v.getId())
 		{
 		case R.id.B1:
-			String url1 = "https://lecturenotes.in/course/";
-			Intent i1 = new Intent(Intent.ACTION_VIEW);
-			i1.setData(Uri.parse(url1));
-			startActivity(i1);
+			Intent i2 = new Intent(Seventh.this,Ninth.class);
+			startActivity(i2);
 			break;
 		case R.id.B2:
-			String url2 = "https://www.smartzworld.com/notes/subject-wise-materials/";
-			Intent i2 = new Intent(Intent.ACTION_VIEW);
-			i2.setData(Uri.parse(url2));
-			startActivity(i2);
-			
+			Intent i1 = new Intent(Seventh.this,Tenth.class);
+			startActivity(i1);
 			break;
 		case R.id.B3:
-			String url3 = "http://www.aboutcivil.org/";
-			Intent i3 = new Intent(Intent.ACTION_VIEW);
-			i3.setData(Uri.parse(url3));
+			Intent i3 = new Intent(Seventh.this,Civil.class);
 			startActivity(i3);
-			
 			break;
 		case R.id.B4:
-			String url4 = "http://www.gate2016.info/free-notes/made-easy-class-notes-mechanical-engineering/";
-			Intent i4 = new Intent(Intent.ACTION_VIEW);
-			i4.setData(Uri.parse(url4));
+			Intent i4 = new Intent(Seventh.this,Mech.class);
 			startActivity(i4);
-			
 			break;
 		case R.id.B5:
 			
@@ -94,6 +85,16 @@ public class Seventh extends Activity implements View.OnClickListener{
 			Intent i6 = new Intent(Intent.ACTION_VIEW);
 			i6.setData(Uri.parse(url6));
 			startActivity(i6);
+			
+			break;
+			
+
+		case R.id.B7:
+			
+			String url7 = "https://lib.ku.edu/locations/art-and-architecture/electronic-resources/architecture";
+			Intent i7 = new Intent(Intent.ACTION_VIEW);
+			i7.setData(Uri.parse(url7));
+			startActivity(i7);
 			
 			break;
 		}

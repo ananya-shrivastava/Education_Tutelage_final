@@ -91,6 +91,16 @@
         android:textStyle="bold" 
         android:textColor="#FFFFFF"
         android:background="@drawable/fo2" />
+	<Button
+        android:id="@+id/B7"
+      	 android:layout_width="fill_parent"
+      	 android:layout_marginBottom="20sp"
+        android:layout_height="60dp"
+        android:text="Architecture"
+         android:textSize="20dp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fo2" />
    </GridLayout>
    </ScrollView>
    

@@ -18,5 +18,13 @@
     <string name="title_activity_kinder3">Kinder3</string>
     <string name="title_activity_secondary">Secondary</string>
     <string name="title_activity_datab">Datab</string>
+    <string name="title_activity_tenth">Tenth</string>
+    <string name="title_activity_eleventh">Eleventh</string>
+    <string name="title_activity_civil">Civil</string>
+    <string name="title_activity_mechanical">Mechanical</string>
+    <string name="title_activity_mech">Mech</string>
+    <string name="title_activity_menu_1">Menu_1</string>
+    <string name="title_activity_new_menu">New_menu</string>
+    <string name="title_activity_rate_feed">Rate_feed</string>
 
 </resources>

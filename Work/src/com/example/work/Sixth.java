@@ -82,6 +82,12 @@ public class Sixth extends Activity implements View.OnClickListener
 			i5.setData(Uri.parse(url5));
 			startActivity(i5);
 			break;
+			
+		case R.id.B6:
+			
+			Intent i6 = new Intent(Sixth.this,Eleventh.class);
+			startActivity(i6);
+			break;
 		}
 		
 		

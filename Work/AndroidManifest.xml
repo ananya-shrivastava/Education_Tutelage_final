@@ -25,12 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity
-            android:name=".SignUPActivity"
-             >
+        <activity android:name=".SignUPActivity" >
         </activity>
-        
         <activity
             android:name=".Second1"
             android:label="@string/title_activity_second1" >
@@ -86,6 +82,38 @@
         <activity
             android:name=".Datab"
             android:label="@string/title_activity_datab" >
+        </activity>
+        <activity
+            android:name=".Tenth"
+            android:label="@string/title_activity_tenth" >
+        </activity>
+        <activity
+            android:name=".Eleventh"
+            android:label="@string/title_activity_eleventh" >
+        </activity>
+        <activity
+            android:name=".Civil"
+            android:label="@string/title_activity_civil" >
+        </activity>
+        <activity
+            android:name=".Mechanical"
+            android:label="@string/title_activity_mechanical" >
+        </activity>
+        <activity
+            android:name=".Mech"
+            android:label="@string/title_activity_mech" >
+        </activity>
+        <activity
+            android:name=".Menu_1"
+            android:label="@string/title_activity_menu_1" >
+        </activity>
+        <activity
+            android:name=".New_menu"
+            android:label="@string/title_activity_new_menu" >
+        </activity>
+        <activity
+            android:name=".Rate_feed"
+            android:label="@string/title_activity_rate_feed" >
         </activity>
     </application>
 

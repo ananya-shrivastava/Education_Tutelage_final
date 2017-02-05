@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class Sixth extends Activity implements View.OnClickListener
 {
-	Button w1,w2,w3,w4,w5;
+	Button w1,w2,w3,w4,w5,w6;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -21,11 +21,13 @@ public class Sixth extends Activity implements View.OnClickListener
 		w3= (Button) findViewById(R.id.B3);
 		w4= (Button) findViewById(R.id.B4);
 		w5= (Button) findViewById(R.id.B5);
+		w6= (Button) findViewById(R.id.B6);
 		w1.setOnClickListener(this);
 		w2.setOnClickListener(this);
 		w3.setOnClickListener(this);
 		w4.setOnClickListener(this);
 		w5.setOnClickListener(this);
+		w6.setOnClickListener(this);
 	}
 
 	@Override

@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +18,6 @@ import android.widget.Toast;
 public class Datab extends Activity {
 Button btnSignIn,btnSignUp;
 LoginDataBaseAdapter loginDataBaseAdapter;
-
 MenuItem m1,m2,m3,m4,m5;
 
 
@@ -126,12 +126,12 @@ return super.onOptionsItemSelected(item);*/
 	switch (item.getItemId()) {  
     case R.id.menu1:  
     	AlertDialog ab1= new AlertDialog.Builder(this).create();
-		ab1.setMessage(" Hello, Welcome to our app TUTELAGE"
-						+ "This is for the  present parents teachers or institutions an easy"
-						+ " way to teach and provide the resources."
+		ab1.setMessage(" Hello, Welcome to our app TUTELAGE "
+						+ " This is for the  present parents teachers or institutions it provides an easy "
+						+ " way to teach and provide the resources. "
 						+ " You can also design something to help "
-						+"students to access the required resources available in the internet"
-						+"through quicker and efficient systems.");
+						+" students to access the required resources available in the internet "
+						+" through quicker and efficient systems.");
 		ab1.show();
 		return true;
 		

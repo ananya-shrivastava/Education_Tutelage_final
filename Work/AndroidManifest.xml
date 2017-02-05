@@ -115,6 +115,9 @@
             android:name=".Rate_feed"
             android:label="@string/title_activity_rate_feed" >
         </activity>
+         <activity
+            android:name=".SharedPref">
+        </activity>
     </application>
 
 </manifest>
